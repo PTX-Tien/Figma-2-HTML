@@ -1,0 +1,14 @@
+* {
+  /* Đảm bảo kích thước được giữ nguyên như đã khai báo */
+  box-sizing: border-box;
+}
+
+html {
+  /* Set 1 rem = 10px */
+  font-size: 62.5%;
+}
+
+/* Khôi phục lại cỡ chữ mặc định theo rem */
+body {
+  font-size: 1.6rem;
+}
